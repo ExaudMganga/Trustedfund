@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 5px 20px 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+
+/* ---------------LOGO------------------- */
+
+.outer-box {
+    padding: 3px 0px 37px 2px;
+    margin: 15px 20% 20px 20%;
+    border: 1px solid black;
+}
+
+.outer-box .trusted {
+    padding: 8px;
+    margin: 0px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    float: left;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+.outer-box .fund-foundation {
+    float: right;
+    position: absolute;
+}
+
+.outer-box .fund {
+    margin: 0px;
+    padding: 2px 5px .5px 5px;
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.outer-box .foundation {
+    border-top: 3px solid #000;
+    margin: 0 0 0 2px;
+    padding: 1px 5px;
+    font-size: 12px;
+    color: #000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.uil-signout {
+    margin-left: 10px;
+}

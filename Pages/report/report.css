@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: black;
+}
+
+.container {
+    display: block;
+    position: relative;
+    z-index: 2;
+    background: #fff;
+}
+
+.menubar {
+    width: 100%;
+    height: 45px;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* ---------------LOGO------------------- */
+
+.menubar .outer-box {
+    background-color: #fff;
+    padding: .5px 2px;
+    margin: 10px 40px;
+    justify-content: space-between;
+}
+
+.outer-box .trusted {
+    padding: 8px;
+    margin: 0px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    float: left;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+.outer-box .fund-foundation {
+    float: right;
+}
+
+.outer-box .fund {
+    margin: 0px;
+    padding: 2px 5px 1px 5px;
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.outer-box .foundation {
+    border-top: 3px solid #000;
+    margin: 0 0 0 2px;
+    padding: 1px 5px;
+    font-size: 12px;
+    color: #000;
+}
+
+
+/* ------------------- user name --------------------- */
+
+.menubar h3 {
+    color: #09d9f5;
+    margin: 2rem;
+    font-size: 16px;
+}
+
+.menubar h3 b {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/* ----------------- navigation bar-------------------- */
+
+nav {
+    background-color: #dddbdb;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 93vh;
+    padding: 50px 20px;
+}
+
+nav .menu-list ul {
+    padding-left: 15px;
+}
+
+nav .menu-list ul li {
+    padding: 20px 0;
+    list-style: none;
+    font-size: 20px;
+    transition: background 0.5s;
+    transition: color 0.5;
+}
+
+nav .menu-list ul li:hover {
+    list-style: disc;
+    border-right: solid blue;
+    border-radius: 6px;
+    color: blue;
+    background: linear-gradient(to right, #dddbdd, rgba(0, 0, 255, 0.445));
+}
+
+nav .menu-list ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    display: flex;
+    transition: color 0.5s;
+}
+
+nav .menu-list ul li a:hover {
+    color: blue;
+}
+
+nav .uil {
+    padding-right: 10px;
+}
+
+
+/* ---------------------------log-out------------------- */
+
+.log-out {
+    margin: 15em 10px 10px;
+    padding: 4px 6px;
+    transition: transform 0.5s;
+    transition: background 1s;
+}
+
+.log-out:hover {
+    transform: translateY(-5px);
+    border: 1px solid blue;
+    border-radius: 6px;
+    background-color: #0614df31;
+}
+
+.log-out a {
+    text-decoration: none;
+    width: fit-content;
+    margin: 2px auto;
+    padding: 2px 4px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.uil.uil-signout {
+    padding-left: 5px;
+    font-size: 24px;
+}
+
+.container_1 {
+    position: absolute;
+    display: block;
+    top: 45px;
+    right: 0;
+    height: 93vh;
+    width: calc(100% - 200px);
+}
+
+.disp {
+    background-color: #f8f4f4;
+    padding: 40px 0 10px 10px;
+    border-bottom: solid #dddbdb 1px;
+}
+
+.container_1 div h1 {
+    padding-left: 10px;
+}
+
